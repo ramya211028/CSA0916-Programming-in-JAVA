@@ -1,0 +1,19 @@
+import java.io.*;
+class Arith
+{
+    public static void main(String[]args)
+{
+        int a=12, b=5;
+        System.out.println("a-b="+(a-b));
+        System.out.println("a*b="+(a*b));
+        System.out.println("a*b="+(a*b));
+        System.out.println("a/b="+(a/b));
+  System.out.println("a%b="+(a%b));
+    }
+}
+OUTPUT:
+a+b=17
+a-b=7
+a*b=60
+a/b=2
+=== Code Execution Successful ===
