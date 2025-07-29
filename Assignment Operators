@@ -1,0 +1,20 @@
+import java.io.*;
+class Assign
+{
+    public static void main(String[]args)
+    {
+        int a=4;
+        int var;
+        var=a;
+        System.out.println("var using =;"+ var);
+        var +=a;
+        System.out.println("var using +=;"+ var);
+        var*=a;
+        System.out.println("var using *=;"+ var);
+    }
+}
+OUTPUT:
+var using =;4
+var using +=;8
+var using *=;32
+=== Code Execution Successful ===
