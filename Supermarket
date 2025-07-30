@@ -1,0 +1,24 @@
+import java.io.*;
+class supermarket
+{
+    public static void main(String[]args)
+    {
+        int rice_price=50,rice_quantity=10,rice_total;
+        int oil_price=150,oil_quantity=2,oil_total;
+        int sugar_price=40,sugar_quantity=5,sugar_total;
+        rice_total=rice_price*rice_quantity;
+        oil_total=oil_price*oil_quantity;
+        sugar_total=sugar_price*sugar_quantity;
+        System.out.println("rice="+rice_total);
+        System.out.println("oil="+oil_total);
+        System.out.println("sugar="+sugar_total);
+        int total_amount_before_discount=rice_total+oil_total+sugar_total;
+        System.out.println("Total_amount_before_discount="+total_amount_before_discount);
+    }
+}
+OUTPUT:
+rice=500
+oil=300
+sugar=200
+Total_amount_before_discount=1000
+=== Code Execution Successful ===
