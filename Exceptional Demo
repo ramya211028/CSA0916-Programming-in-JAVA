@@ -1,0 +1,29 @@
+import java.io.*;
+public class ExceptionalDemo {
+    public static void main(String[] args) {
+        try {
+            int a = 10;
+            int b = 10;
+            int result = a / b;
+            System.out.println("Result: " + result);
+            int[] numbers = {1, 2, 3};
+            System.out.println("Number at index 5: " + numbers[5]); 
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception Caught: " + e.getMessage());
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Out Of Bounds Exception Caught: " + e.getMessage());
+        }
+        System.out.println("Program Continues After Exception Handling");
+    }
+
+OUTPUT:
+
+
+Result: 1
+Array Index Out Of Bounds Exception Caught: Index 5 out of bounds for length 3
+Program Continues After Exception Handling
+
+=== Code Execution Successful ===
+
